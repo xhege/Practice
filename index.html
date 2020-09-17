@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			img{
+				width: 400px;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+			/* 滤镜属性 
+			 * grayscale:设置灰度,1是百分之百,0百分之0
+			 *  */
+			transition: all 3s;
+			}
+			img:hover{
+				-webkit-filter:none;
+			}
+			.img1{
+				/* 滤镜属性 
+				* grayscale:设置灰度,1是百分之百,0百分之0
+				*  */
+				-webkit-filter:grayscale(1);
+			}
+			.img2{
+				/* 滤镜属性
+				 * brightenss:亮度，默认值是1，正常亮度
+				 *  */
+				 -webkit-filter:brightness(2);
+			.img3{
+				/*褐色属性
+				 sepia:1百分之百褐色，正常为0
+				 *  */
+				 -webkit-filter:sepia(1);
+			}
+		</style>
+	</head>
+	<body>
+		<img class="img1" src="img/hejiong.png" alt="">
+		<img class="img2" src="img/hejiong.png" alt="">
+		<img class="img3" src="img/hejiong.png" alt="">
+	</body>
+</html>
